@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="FCN_SMALL_IND" directorySegmentName="seg_0" id="602205A1-5088-EDE3-03C8-23169ACE51A5">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>FCN_SMALL_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

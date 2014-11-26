@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="809EBFEC-D70A-14E6-D0FD-766339B8ECE0" name="TEST">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>VINETTES</sourceObjSchema>
+<sourceObjName>TEST</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 15:19:52 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<importedID>39BC8535-E4BD-9A19-05D4-9505F35468B4</importedID>
+<schemaObject>89E772DE-AD34-6220-8FDE-5E191C977BC1</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEST_ID" directorySegmentName="seg_0" id="37BC9FB1-B6B6-CAFA-07A8-E2497757FC2E">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEST_NAME" directorySegmentName="seg_0" id="DE519760-EB21-4715-AFC0-E7318ED18057">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE_IND" directorySegmentName="seg_0" id="1B5B2AB7-1E64-37DB-BAD8-7FD2016562DD">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>ACTIVE_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>468F87F0-F637-58FC-D41F-3B698D03A155</domain>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" directorySegmentName="seg_0" id="4A96FCC0-A992-5AAE-02CB-2DEA2DB19FAE">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<domain>5D1CADF3-E7BE-B430-D7D0-9D0D7219A0E8</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" directorySegmentName="seg_0" id="9A9D3BCC-1D54-5B3A-949D-5709B389A747">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E448ADC8-CDEE-0CB4-8592-536C80E2FC26</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" directorySegmentName="seg_0" id="869BC828-2A72-FE69-0EDE-1DC1D9ED6B56">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFICATION_DATE" directorySegmentName="seg_0" id="1AE67566-8442-6BBA-BB0E-A7C0CD803F58">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TESTER_ID" id="561C8E26-2932-FDF6-434C-4021EF55B76B">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>TEST</sourceObjSchema>
+<sourceObjName>TESTER_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-02 14:08:21 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5172FB2D-3400-9A2B-B065-CDECB75E308B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB245D55-D766-4273-4F25-55BB238171BC" referredColumn="5172FB2D-3400-9A2B-B065-CDECB75E308B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9D0E01F-A5DF-BEEA-8A98-8CB31BC8685F" name="TEST_PK">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37BC9FB1-B6B6-CAFA-07A8-E2497757FC2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D164B7A-9D8B-A436-B5EE-2565CF8542EC" name="TEST_PK">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>89E772DE-AD34-6220-8FDE-5E191C977BC1</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37BC9FB1-B6B6-CAFA-07A8-E2497757FC2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BCD64F9-D626-BA82-05E8-DE2F598D3B10" name="TEST_TESTER_FK">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-02 14:08:21 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="561C8E26-2932-FDF6-434C-4021EF55B76B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

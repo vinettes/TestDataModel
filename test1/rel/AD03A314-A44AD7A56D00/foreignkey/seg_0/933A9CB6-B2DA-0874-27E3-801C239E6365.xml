@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="933A9CB6-B2DA-0874-27E3-801C239E6365" name="MERCAS_MERCA_FK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCAS_MERCA_FK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<containerWithKeyObject>5E67656A-B711-8F03-FFF4-F022ED248041</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>BD5B6E39-009D-7E62-4506-D4F9C3ACE517</localFKIndex>
+<keyObject>C88D8367-EEB7-9C4D-E6EB-7788DE327D48</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

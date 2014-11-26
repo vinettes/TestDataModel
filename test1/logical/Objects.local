@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="27A2DEB4-8753-6F60-07E8-D8EF20F115A2" name="TEST" seqName="seg_0"/>
+   <object objectType="Entity" objectID="50559705-3C9F-AE60-5F68-198B0B0D42A9" name="TESTER" seqName="seg_0"/>
+   <object objectType="Entity" objectID="74CB8D82-34BE-2EFD-CD19-02A498D25485" name="TEST DET DET" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C98871C6-DB3D-7C00-1E77-334D75E2D49C" name="TEST DET" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3FF4528C-A04E-733C-4BBC-B0000EC05529" name="TEST_DET_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AAC2646C-0754-B248-11AD-37893A4FB552" name="TEST_DET_TEST_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AB7632A5-3049-7AFA-53A4-E5A9F94EDEE7" name="TEST_TESTER_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

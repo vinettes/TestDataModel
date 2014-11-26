@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SynonymOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="FCN_MERCA_ACCT_RISK_INFO_JN" directorySegmentName="seg_0" id="0FB6E545-EFB3-A1C5-AD2C-094E4CF29DFE">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>PUBLIC</sourceObjSchema>
+<sourceObjName>FCN_MERCA_ACCT_RISK_INFO_JN</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:35 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<object>MERCA_ACCT_RISK_INFO_JN</object>
+<objectUser>A2F89220-3194-9EC7-59AE-89FF69B57C0E</objectUser>
+<public>YES</public>
+</SynonymOraclev10g>

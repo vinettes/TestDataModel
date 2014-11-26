@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BUR_TEST" directorySegmentName="seg_0" id="B61BA59B-6620-7ED6-E669-E8AAC0B533E4">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-02 15:53:55 UTC</createdTime>
+<comment>Trigger Comments</comment>
+<ownerDesignName>test</ownerDesignName>
+<actions>UPDATE</actions>
+<body>begin&lt;br/&gt;  :new.modified_by := user;&lt;br/&gt;  :new.modified_on := sysdate;&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<table>809EBFEC-D70A-14E6-D0FD-766339B8ECE0</table>
+</TriggerOraclev10g>

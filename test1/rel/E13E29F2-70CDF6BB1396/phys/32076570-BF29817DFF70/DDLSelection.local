@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectID="453ABD94-12F5-1EB5-26D2-5827411F0238" markedGenerate="false"/>
+   <object objectID="PUBLIC" markedGenerate="false"/>
+   <object objectID="MDSYS" markedGenerate="false"/>
+   <object objectID="82DBCAD1-A46C-5C46-21F5-83FAED6D0A75" markedGenerate="false"/>
+   <object objectID="A703379C-F007-3BBE-D683-3E5FBC9DCA0F" markedGenerate="false"/>
+   <object objectID="F25EFA5D-7081-EF49-B16B-0DA65AF56CCE" markedGenerate="false"/>
+   <object objectID="C9D0E01F-A5DF-BEEA-8A98-8CB31BC8685F" markedGenerate="false"/>
+   <object objectID="4D164B7A-9D8B-A436-B5EE-2565CF8542EC" markedGenerate="false"/>
+   <object objectID="3BD33CF2-1775-F5C8-5F11-F2407DCC54BE" markedGenerate="false"/>
+   <object objectID="D5E86F10-3D2C-8E7E-162C-51CB642D030A" markedGenerate="false"/>
+   <object objectID="6DEFAB66-F227-B993-F8CC-B4D9E9B42D2C" markedGenerate="false"/>
+   <object objectID="B3297DC1-36CB-8390-401E-37CD6E435701" markedGenerate="false"/>
+   <object objectID="DA269B3B-22CF-B7A0-9D5A-208A8C9B3C56" markedGenerate="false"/>
+   <object objectID="809EBFEC-D70A-14E6-D0FD-766339B8ECE0" markedGenerate="false"/>
+   <object objectID="6D7D269C-165E-0184-9B21-45312F04220C" markedGenerate="false"/>
+   <object objectID="3536ADD2-430E-EE86-A9C4-9E6B2C6D5B23" markedGenerate="false"/>
+   <object objectID="53BD4D92-7767-C3C7-9B66-6ACE52C5D052" markedGenerate="false"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

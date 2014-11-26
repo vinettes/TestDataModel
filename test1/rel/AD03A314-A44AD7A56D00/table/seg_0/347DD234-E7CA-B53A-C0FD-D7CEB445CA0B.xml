@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="347DD234-E7CA-B53A-C0FD-D7CEB445CA0B" name="MERCA_ACCT_RISK_INFO">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_ACCT_RISK_INFO</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:30 UTC</createdTime>
+<commentInRDBMS>This table holds risk information about merchants.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MERCA_ACCOUNT_ID" id="E4D5C493-060F-2E52-1685-C1841586BD50">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_ACCT_RISK_INFO</sourceObjSchema>
+<sourceObjName>MERCA_ACCOUNT_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Merchant account id assigned by FALCON during merchant sign up.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7485E70C-46C4-2812-757A-C1F864F4AB2A" referredColumn="0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0"/>
+</associations>
+</Column>
+<Column name="CB_RATE" id="E0AC9B9D-ECEA-FBDB-F070-490AC40C13EF">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_ACCT_RISK_INFO</sourceObjSchema>
+<sourceObjName>CB_RATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The chargeback rate for the specified merchant account, as a percentage.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CBRRIT_CDE" id="D9931E2C-041B-FE34-8A27-5D25C072D8DD">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_ACCT_RISK_INFO</sourceObjSchema>
+<sourceObjName>CBRRIT_CDE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The range rating identification code.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="F45E4041-58CC-5A16-3A74-0354CDA9D0F1">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_ACCT_RISK_INFO</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The person/process that created the record.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="5235C1CC-51D5-DDAF-B77C-388B84D70122">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_ACCT_RISK_INFO</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The date that the record was created.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" id="BCE0DEEA-9184-A832-C48E-216F175CB2AB">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_ACCT_RISK_INFO</sourceObjSchema>
+<sourceObjName>MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The person/process that last modified the record.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFICATION_DATE" id="D5F02379-F568-B2B3-E211-06B4B9AA3CF2">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_ACCT_RISK_INFO</sourceObjSchema>
+<sourceObjName>MODIFICATION_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The date the record was last modified.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IP_ADDRESS" id="617A1B95-2895-7112-70AE-5AE3E8F8F8C3">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_ACCT_RISK_INFO</sourceObjSchema>
+<sourceObjName>IP_ADDRESS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The IP address of the user who created this record.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B63EADA-AE3A-7334-D3D4-18DCB80E48F6" name="MERCARI_PK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCARI_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4D5C493-060F-2E52-1685-C1841586BD50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73DF08AB-B462-396B-2338-59EC84CE58D3" name="MERCARI_PK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCARI_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4D5C493-060F-2E52-1685-C1841586BD50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18D9364E-BF8E-607E-6165-993B25DAE600" name="MERCARI_CBRRIT_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCARI_CBRRIT_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9931E2C-041B-FE34-8A27-5D25C072D8DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21FF1778-563F-0AAD-3C99-597F186660B0" name="MERCARI_MERCA_FK">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4D5C493-060F-2E52-1685-C1841586BD50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

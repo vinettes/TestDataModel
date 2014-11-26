@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="MERC_BATCH_DETAILS_SEQ" directorySegmentName="seg_0" id="D15873D5-1B9E-5383-8B2A-665E42323D9A">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERC_BATCH_DETAILS_SEQ</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:30 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<user>A2F89220-3194-9EC7-59AE-89FF69B57C0E</user>
+</SequenceOraclev10g>

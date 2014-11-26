@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BIR_MERCHANT_ACCOUNTS" directorySegmentName="seg_0" id="59F5CF72-6AD1-C726-1A25-2C00AE2B325C">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>BIR_MERCHANT_ACCOUNTS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;if (:new.active_flag = 1) then&lt;br/&gt;   :new.crcps_state := &apos;ENABLE&apos; ;&lt;br/&gt;else&lt;br/&gt;   :new.crcps_state := nvl(:new.crcps_state,&apos;SUSP&apos;) ;&lt;br/&gt;end if ;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;if :new.LAST_AUTH_SEQ = 0 then&lt;br/&gt; :new.LAST_AUTH_SEQ := 1000000;&lt;br/&gt;end if;&lt;br/&gt;&lt;br/&gt;/*&lt;br/&gt; * temporarily added to support journaling and avoid migration&lt;br/&gt; * on existing accounts.&lt;br/&gt; * Project Zurich, 30 Apr 03, Erik Mailhiot&lt;br/&gt; *&lt;br/&gt; * CVS Info: $Id: merchant_accounts_bi.sql,v 1.1.2.1 2003/12/10 21:41:43 erikm Exp $&lt;br/&gt; */&lt;br/&gt;&lt;br/&gt;/* audit section */&lt;br/&gt;:new.creation_date := sysdate ;&lt;br/&gt;:new.created_by := nvl(:new.created_by, user) ;&lt;br/&gt;&lt;br/&gt;:new.modification_date := sysdate ;&lt;br/&gt;:new.modified_by := nvl(:new.modified_by, user) ;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;  /*&lt;br/&gt;   * Initializing visa txn monthly counts to 0 for Gaming merchants.&lt;br/&gt;   *&lt;br/&gt;   * User Story 1549 - Visa credit protection, 02 Dec 03, Erik Mailhiot&lt;br/&gt;   *&lt;br/&gt;   * CVS Info: $Id: merchant_accounts_bi.sql,v 1.1.2.1 2003/12/10 21:41:43 erikm Exp $&lt;br/&gt;   */&lt;br/&gt;  if :new.accoct_account_category_cde in (&apos;GA&apos;,&apos;PA&apos;) then&lt;br/&gt;    :new.vi_sett_monthly_count := 0;&lt;br/&gt;    :new.vi_cred_monthly_count := 0;&lt;br/&gt;  end if;&lt;br/&gt;&lt;br/&gt;END BIR_MERCHANT_ACCOUNTS;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<table>5F59B66D-C994-E44E-976E-F86FFEFE66CD</table>
+</TriggerOraclev10g>

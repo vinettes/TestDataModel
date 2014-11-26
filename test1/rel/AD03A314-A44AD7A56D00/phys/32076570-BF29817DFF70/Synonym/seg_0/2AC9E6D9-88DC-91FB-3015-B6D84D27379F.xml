@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SynonymOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="FCN_MERCHANT_ACCOUNTS_JN" directorySegmentName="seg_0" id="2AC9E6D9-88DC-91FB-3015-B6D84D27379F">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>PUBLIC</sourceObjSchema>
+<sourceObjName>FCN_MERCHANT_ACCOUNTS_JN</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:35 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<object>MERCHANT_ACCOUNTS_JN</object>
+<objectUser>A2F89220-3194-9EC7-59AE-89FF69B57C0E</objectUser>
+<public>YES</public>
+</SynonymOraclev10g>

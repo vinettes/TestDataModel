@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ADR_MERCA_ACCT_RISK_INFO" directorySegmentName="seg_0" id="329C83DF-FFE4-1EA0-3F57-B3D5F50A56E3">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>ADR_MERCA_ACCT_RISK_INFO</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<actions>DELETE</actions>
+<body>declare&lt;br/&gt;/*&lt;br/&gt; *   NAME:    ADR_MERCA_ACCT_RISK_INFO&lt;br/&gt; *&lt;br/&gt; *   PURPOSE: To keep a rating history for each merchant.&lt;br/&gt; *&lt;br/&gt; *   EXCEPTIONS:  Name:&lt;br/&gt; *                Code:&lt;br/&gt; *                Desc:&lt;br/&gt; *&lt;br/&gt; *&lt;br/&gt; *   REVISIONS:&lt;br/&gt; *   Date       Author        Description&lt;br/&gt; *   ---------  ------        ----------------------------------------&lt;br/&gt; *   21 Jun 02  Erik Mailhiot 1. Created.&lt;br/&gt; *&lt;br/&gt; *   NOTES:&lt;br/&gt; */&lt;br/&gt;&lt;br/&gt;    v_dummy_field merca_acct_risk_info_jn.cb_rate%type;&lt;br/&gt;&lt;br/&gt;    cursor c_get_old_row (cp_merca_account_id merca_acct_risk_info_jn.merca_account_id%type) is&lt;br/&gt;        select cb_rate&lt;br/&gt;          from merca_acct_risk_info_jn&lt;br/&gt;         where merca_account_id = cp_merca_account_id&lt;br/&gt;           and thru_date is null&lt;br/&gt;           for update;&lt;br/&gt;&lt;br/&gt;    v_sysdate date := sysdate;&lt;br/&gt;&lt;br/&gt;begin&lt;br/&gt;  open c_get_old_row(:old.merca_account_id);&lt;br/&gt;  fetch c_get_old_row into v_dummy_field;&lt;br/&gt;&lt;br/&gt;  if c_get_old_row%found then -- Old status exists for this batch.&lt;br/&gt;      /* Set the thru_date of the old record... */&lt;br/&gt;      update merca_acct_risk_info_jn&lt;br/&gt;         set thru_date = v_sysdate - (1/24/60/60) /* one second */&lt;br/&gt;       where current of c_get_old_row;&lt;br/&gt;  end if;&lt;br/&gt;  close c_get_old_row;&lt;br/&gt;&lt;br/&gt;end;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<table>347DD234-E7CA-B53A-C0FD-D7CEB445CA0B</table>
+</TriggerOraclev10g>

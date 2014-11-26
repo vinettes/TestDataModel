@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BUR_MERCHANT_CATEGORY_TYPES" directorySegmentName="seg_0" id="E995057C-2078-2178-0A67-A7458EA9D677">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>BUR_MERCHANT_CATEGORY_TYPES</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<actions>UPDATE</actions>
+<body>BEGIN&lt;br/&gt;&lt;br/&gt;/* audit section */&lt;br/&gt;:new.modification_date := sysdate;&lt;br/&gt;&lt;br/&gt;if not updating (&apos;modified_by&apos;) then&lt;br/&gt;	if (user != &apos;FALTXN&apos;) then&lt;br/&gt;:new.modified_by := user ;&lt;br/&gt;	end if ;&lt;br/&gt;end if ;&lt;br/&gt;&lt;br/&gt;END ;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<table>41ECF0CD-1B6E-8B69-82DC-E25C506F93BB</table>
+</TriggerOraclev10g>

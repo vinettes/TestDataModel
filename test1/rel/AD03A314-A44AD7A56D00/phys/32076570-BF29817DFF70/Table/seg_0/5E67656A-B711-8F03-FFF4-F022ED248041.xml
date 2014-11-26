@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MERCHANT_ACCOUNT_SUMMARIES" directorySegmentName="seg_0" id="5E67656A-B711-8F03-FFF4-F022ED248041">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C1BD2E6-DB49-D95F-32B3-83C06046A0D3</segment>
+<tableSpace>9EFA8268-9A44-7FBB-1949-C7C102595E52</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MERCAS_STAT_FK_I" id="52B05BB7-1948-9E19-942A-2A42DC7A34BF">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>NO</logging>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MERCAS_PROCB_FK_I" id="7708AEC0-9899-AB95-E78B-CAC7FD31F7AB">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>NO</logging>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MERCAS_MERCA_FK_I" id="7DEC2948-2909-F2D9-224D-17EA9DA481CA">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>NO</logging>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MERCAS_PK" id="E9AF8F37-5B3A-9D49-7FF7-10BB7FDF28F9">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MERCA_ACCOUNT_ID" id="192C9713-F56E-51D2-D023-FB1A9E90AC12">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="39A68221-C538-20A4-3ABC-8749794C7978">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEQ" id="40790D27-470D-9B7C-372B-2D812653634D">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAT_CODE" id="52F36775-EBAA-1D57-6CF5-1DDD3690F16F">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_RECORD_COUNT" id="632105B0-2EEC-AC8D-7832-2D29D58CEFAB">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCB_ID" id="6B5FBD86-3B69-7A14-4BFE-7ADD81C9B263">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_TOTAL_AMT" id="7D05BB28-AAD6-0FAD-AC7C-BF31ED536DB9">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOTAL_RECORD_COUNT" id="9D0D75B8-B59E-48CB-C4F0-8D00449830D3">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECORD_TYPE" id="E3C447F7-9657-E3A4-030E-CB16ACB92D0C">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODIFICATION_DATE" id="E5693D19-18F1-B6A7-CD29-E6636DC6BCF4">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MERCAS_MERCA_FK" id="BD5B6E39-009D-7E62-4506-D4F9C3ACE517">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MERCAS_PK" id="C1C52BC9-21D4-BACA-C421-D656E001CE24">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+<existingIndex>E9AF8F37-5B3A-9D49-7FF7-10BB7FDF28F9</existingIndex>
+<indexSegment>C713565D-CAC5-588D-DCFD-4988E731CC63</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

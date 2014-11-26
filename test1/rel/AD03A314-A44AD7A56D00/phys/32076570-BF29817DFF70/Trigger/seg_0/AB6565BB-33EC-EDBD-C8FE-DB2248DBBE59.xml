@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ADR_MERCA_BRAND_RISK_INFO" directorySegmentName="seg_0" id="AB6565BB-33EC-EDBD-C8FE-DB2248DBBE59">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>ADR_MERCA_BRAND_RISK_INFO</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<actions>DELETE</actions>
+<body>declare&lt;br/&gt;/*&lt;br/&gt; *   NAME:    ADR_MERCA_BRAND_RISK_INFO&lt;br/&gt; *&lt;br/&gt; *   PURPOSE: To keep an history of statuses for the batch.&lt;br/&gt; *&lt;br/&gt; *   EXCEPTIONS:  Name:&lt;br/&gt; *                Code:&lt;br/&gt; *                Desc:&lt;br/&gt; *&lt;br/&gt; *&lt;br/&gt; *   REVISIONS:&lt;br/&gt; *   Date       Author        Description&lt;br/&gt; *   ---------  ------        ----------------------------------------&lt;br/&gt; *   21 Oct 02  Erik Mailhiot 1. Created&lt;br/&gt; *                               CVS info: $Id$&lt;br/&gt; *&lt;br/&gt; *   NOTES:&lt;br/&gt; */&lt;br/&gt;&lt;br/&gt;    v_dummy_field merca_brand_risk_info_jn.bran_code%type;&lt;br/&gt;&lt;br/&gt;    cursor c_get_old_row (cp_merca_account_id merca_brand_risk_info_jn.merca_account_id%type,&lt;br/&gt;                          cp_bran_code merca_brand_risk_info_jn.bran_code%type) is&lt;br/&gt;        select bran_code&lt;br/&gt;          from merca_brand_risk_info_jn&lt;br/&gt;         where merca_account_id = cp_merca_account_id&lt;br/&gt;           and bran_code = cp_bran_code&lt;br/&gt;           and thru_date is null&lt;br/&gt;           for update;&lt;br/&gt;&lt;br/&gt;    v_sysdate date := sysdate;&lt;br/&gt;&lt;br/&gt;begin&lt;br/&gt;  open c_get_old_row(:old.merca_account_id, :old.bran_code);&lt;br/&gt;  fetch c_get_old_row into v_dummy_field;&lt;br/&gt;&lt;br/&gt;  if c_get_old_row%found then -- Old record exists for this entity.&lt;br/&gt;      /* Set the thru_date of the old record... */&lt;br/&gt;      update merca_brand_risk_info_jn&lt;br/&gt;         set thru_date = v_sysdate - (1/24/60/60) /* one second */&lt;br/&gt;       where current of c_get_old_row;&lt;br/&gt;  end if;&lt;br/&gt;  close c_get_old_row;&lt;br/&gt;&lt;br/&gt;end;&lt;br/&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<table>7A8F0E6D-D3BF-ABBA-08DB-3834A1F0198F</table>
+</TriggerOraclev10g>

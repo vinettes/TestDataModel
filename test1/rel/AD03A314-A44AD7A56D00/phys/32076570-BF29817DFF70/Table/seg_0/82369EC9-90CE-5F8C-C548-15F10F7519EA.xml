@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MERCHANT_ACCOUNT_GROUPS" directorySegmentName="seg_0" id="82369EC9-90CE-5F8C-C548-15F10F7519EA">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:30 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>33057500-9CAE-1AEA-9F8C-D1603C5579B8</segment>
+<tableSpace>9EFA8268-9A44-7FBB-1949-C7C102595E52</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MERCAG_PK" id="30678D2F-777A-60EF-39A1-B07CF47C96B3">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MERCAG_MERCA_FK_I" id="3CBFEC16-6A88-424E-4E8D-1737ED519DD1">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>NO</logging>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MERCAG_ACCOG_FK_I" id="E2DE8985-1B8C-993B-3031-2467ADF02EF7">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>NO</logging>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ACCOG_NAME" id="83AAC6F8-73DF-2AA7-A5FE-D723C10F905E">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MERCA_ACCOUNT_ID" id="B30D61D7-7F9A-6219-2E57-DA132574CD65">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTES" id="E665F218-3D32-CF7A-57AF-51E839D6CBA4">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MERCAG_MERCA_FK" id="44E8DBEA-616F-8B0D-1547-56F396CBF2EF">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MERCAG_PK" id="FAEE05BD-8796-C98F-141F-0A6C15820098">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+<existingIndex>30678D2F-777A-60EF-39A1-B07CF47C96B3</existingIndex>
+<indexSegment>C713565D-CAC5-588D-DCFD-4988E731CC63</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

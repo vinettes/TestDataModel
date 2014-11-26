@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ADR_MERCHANT_ACCOUNT_GROUPS" directorySegmentName="seg_0" id="10B06097-E725-D1D1-21BA-DE84E3B52D81">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>ADR_MERCHANT_ACCOUNT_GROUPS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<actions>DELETE</actions>
+<body>declare&lt;br/&gt;/*&lt;br/&gt; *   NAME:    adr_merchant_account_groups&lt;br/&gt; *&lt;br/&gt; *   PURPOSE: This trigger clears the merchant account stored data&lt;br/&gt;  *           account group when the account is removed from a group.&lt;br/&gt; *&lt;br/&gt; *   REVISIONS:&lt;br/&gt; *   Date         Author          Description&lt;br/&gt; *   -----------  --------------  ---------------------------------------&lt;br/&gt; *   05 Oct 2009  Peter de Salis  1.  Created&lt;br/&gt; *&lt;br/&gt; *   CVS Info: $Id: $&lt;br/&gt; *&lt;br/&gt; *   NOTES:&lt;br/&gt; */&lt;br/&gt;&lt;br/&gt;begin&lt;br/&gt;  update merchant_accounts&lt;br/&gt;     set stored_data_account_group = null&lt;br/&gt;   where account_id = :old.merca_account_id&lt;br/&gt;     and stored_data_account_group = :old.accog_name;&lt;br/&gt;exception&lt;br/&gt;  when others then&lt;br/&gt;    raise_application_error(-20001, &apos;Error blanking stored_data_account_group for account&apos;, true);&lt;br/&gt;end adr_merchant_account_groups;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<table>82369EC9-90CE-5F8C-C548-15F10F7519EA</table>
+</TriggerOraclev10g>

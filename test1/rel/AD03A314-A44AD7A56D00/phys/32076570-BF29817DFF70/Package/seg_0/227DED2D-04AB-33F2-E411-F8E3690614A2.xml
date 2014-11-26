@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<PackageOracle class="oracle.dbtools.crest.model.design.storage.oracle.PackageOracle" name="MERCHANT_BANK_RECONCILIATION" directorySegmentName="seg_0" id="227DED2D-04AB-33F2-E411-F8E3690614A2">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCHANT_BANK_RECONCILIATION</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:35 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<source>CREATE OR REPLACE PACKAGE FALCON.MERCHANT_BANK_RECONCILIATION   as&lt;br&gt;type ref1_MERCHANT_BANK_RECON  is ref cursor;&lt;br&gt;end;</source>
+</PackageOracle>

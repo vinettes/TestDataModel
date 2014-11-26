@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TEST" directorySegmentName="seg_0" id="809EBFEC-D70A-14E6-D0FD-766339B8ECE0">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>89E772DE-AD34-6220-8FDE-5E191C977BC1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TEST_PK" id="4D164B7A-9D8B-A436-B5EE-2565CF8542EC">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>89E772DE-AD34-6220-8FDE-5E191C977BC1</schemaObject>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MODIFIED_ON" id="1AE67566-8442-6BBA-BB0E-A7C0CD803F58">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-29 16:09:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_IND" id="1B5B2AB7-1E64-37DB-BAD8-7FD2016562DD">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-29 16:09:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="TEST_ID" id="37BC9FB1-B6B6-CAFA-07A8-E2497757FC2E">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-29 16:09:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="4A96FCC0-A992-5AAE-02CB-2DEA2DB19FAE">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-29 16:09:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODIFIED_BY" id="869BC828-2A72-FE69-0EDE-1DC1D9ED6B56">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-29 16:09:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_ON" id="9A9D3BCC-1D54-5B3A-949D-5709B389A747">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-29 16:09:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEST_NAME" id="DE519760-EB21-4715-AFC0-E7318ED18057">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-29 16:09:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TEST_PK" id="C9D0E01F-A5DF-BEEA-8A98-8CB31BC8685F">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

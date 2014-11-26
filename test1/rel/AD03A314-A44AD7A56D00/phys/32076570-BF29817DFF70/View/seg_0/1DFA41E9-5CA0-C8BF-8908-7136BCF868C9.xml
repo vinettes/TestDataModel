@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="FCN_BUSINESS_TIMES_V" directorySegmentName="seg_0" id="1DFA41E9-5CA0-C8BF-8908-7136BCF868C9">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+</TableViewProxyOraclev10g>

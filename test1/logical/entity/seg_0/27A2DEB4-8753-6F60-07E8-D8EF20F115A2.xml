@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27A2DEB4-8753-6F60-07E8-D8EF20F115A2" name="TEST">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-03 17:15:09 UTC</createdTime>
+<generatorID>809EBFEC-D70A-14E6-D0FD-766339B8ECE0</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" value="true"/>
+<item key="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" value="false"/>
+<item key="AD03A314-D894-39BC-2109-A44AD7A56D00" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TEST NAME" id="FD717C24-D7C4-1228-3475-C39597AF8476">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-03 17:15:09 UTC</createdTime>
+<generatorID>DE519760-EB21-4715-AFC0-E7318ED18057</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" value="true"/>
+<item key="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" value="true"/>
+<item key="AD03A314-D894-39BC-2109-A44AD7A56D00" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="STATUS IND" id="D3A80248-F593-3CFC-4BF8-EA7D8D77D1B7">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-03 17:15:09 UTC</createdTime>
+<generatorID>1B5B2AB7-1E64-37DB-BAD8-7FD2016562DD</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" value="true"/>
+<item key="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" value="true"/>
+<item key="AD03A314-D894-39BC-2109-A44AD7A56D00" value="true"/>
+</engineerTo>
+<constraintName>TEST_STATUS_CC</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<defaultValue>0</defaultValue>
+</Attribute>
+<Attribute name="CREATED BY" id="BE47DFF6-B81A-F5E2-AC73-E7AC284AC7CA">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-03 17:15:09 UTC</createdTime>
+<generatorID>4A96FCC0-A992-5AAE-02CB-2DEA2DB19FAE</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" value="true"/>
+<item key="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" value="true"/>
+<item key="AD03A314-D894-39BC-2109-A44AD7A56D00" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="CREATED ON" id="811CA007-EABE-45B5-4B90-75086D3BCF42">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-03 17:15:09 UTC</createdTime>
+<generatorID>9A9D3BCC-1D54-5B3A-949D-5709B389A747</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" value="true"/>
+<item key="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" value="true"/>
+<item key="AD03A314-D894-39BC-2109-A44AD7A56D00" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="MODIFIED BY" id="E38811A4-2D3A-FE9C-7777-D9037B0098DA">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-03 17:15:09 UTC</createdTime>
+<generatorID>869BC828-2A72-FE69-0EDE-1DC1D9ED6B56</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" value="true"/>
+<item key="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" value="true"/>
+<item key="AD03A314-D894-39BC-2109-A44AD7A56D00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MODIFIED ON" id="0D1F6883-993F-E8EE-8E92-5B92407AC982">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-03 17:15:09 UTC</createdTime>
+<generatorID>1AE67566-8442-6BBA-BB0E-A7C0CD803F58</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" value="true"/>
+<item key="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" value="true"/>
+<item key="AD03A314-D894-39BC-2109-A44AD7A56D00" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="917E8A61-E4CD-7FCE-DF4A-D4CF29255BD9" name="MERCA_BRAND_RISK_INFO_JN">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_BRAND_RISK_INFO_JN</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:30 UTC</createdTime>
+<commentInRDBMS>Holds history of inserts and updates made on the MERCA_BRAND_RISK_INFO table.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MERCA_ACCOUNT_ID" id="F742D909-6209-7847-66AF-F0165A8E0CEC">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>MERCA_ACCOUNT_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Merchant account id assigned by FALCON during merchant sign up.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRAN_CODE" id="CF8F21CB-DA9C-CC13-D495-357E0A034C7B">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>BRAN_CODE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MERCBRIJ_FROM_DATE" id="623B1969-E5C7-492B-80CB-2C784D8C8E57">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>MERCBRIJ_FROM_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Date the change was made or the record was created.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" id="F849A6AB-A9AC-6673-374B-6C90FC14EF7A">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The person/process that last modified the record (same as creator in case of first record).</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CB_RATE" id="300679E7-2250-1E5A-684D-802AC65B2077">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>CB_RATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The chargeback rate for the specified merchant account, as a percentage.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CBRRIT_CDE" id="CBFCCA58-8678-E5D3-0219-C68CE1DD8C02">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>CBRRIT_CDE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The range rating identification code.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IP_ADDRESS" id="F870BB80-99B4-0E2C-C772-F5C63E6917AE">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>IP_ADDRESS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The IP address of the user who created this record.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THRU_DATE" id="2F4F52DA-BEAA-0080-024F-E4697DFBAF41">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>THRU_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The date the record was modified.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="B1B96DCE-50BF-164C-C543-BC60E9795222">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>taken form the cb_rating_ranges_jn table for the given modification date</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OGG_KEY_ID" id="B42EAA11-7737-C746-B358-C4C5A00DFA09">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCA_BRAND_RISK_INFO_JN</sourceObjSchema>
+<sourceObjName>OGG_KEY_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS> Column to ensure  record unicity requested by Goldengate  replication</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<defaultValue>sys_guid()</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E28014C5-FDF8-4A64-408B-8D1CB4BEBA31" name="MERBRIJ_ACCT_BRAN_NU_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERBRIJ_ACCT_BRAN_NU_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F742D909-6209-7847-66AF-F0165A8E0CEC"/>
+<colUsage columnID="CF8F21CB-DA9C-CC13-D495-357E0A034C7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3219AF1-57FF-6B40-2302-D2DA2002FE0E" name="MERCBRIJ_CBRRIT_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCBRIJ_CBRRIT_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBFCCA58-8678-E5D3-0219-C68CE1DD8C02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

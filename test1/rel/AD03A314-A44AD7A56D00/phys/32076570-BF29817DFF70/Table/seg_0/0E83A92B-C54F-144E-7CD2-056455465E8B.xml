@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MERCHANT_ACCNT_KEYWORDS" directorySegmentName="seg_0" id="0E83A92B-C54F-144E-7CD2-056455465E8B">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:30 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>NO</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B12DB05A-5D94-32C8-9655-79560EBBA63A</segment>
+<tableSpace>B45B68F7-6860-8C87-E949-8BFCBF4DE869</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MERCHANT_ACCNT_KEYWORDS_PK" id="A8BD5E13-CEDD-9AB6-AF4F-DD66383FF0DD">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<logging>NO</logging>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MODIFICATION_DATE" id="0D2B3710-29D7-6EC8-7777-38469E66F546">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="0DCF0F12-A1DB-A63B-0BA8-23FAB3B93F9D">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="1962F703-9C5E-7179-21EF-B81ACA6B396C">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODIFIED_BY" id="5E70F51F-1345-3C59-C9B6-48DE6579A557">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MERCA_ACCOUNT_ID" id="87270DE4-A8FE-A9D4-A533-5A48600C2612">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KEYWORD" id="8CF98A2F-5FA1-CD47-36DC-CE7DBA3C3E9B">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MERACCTKEY_MERACCT_MERACID_FK" id="5AA56D07-8D36-64BC-7D39-1D7BBBF8FF61">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MERCHANT_ACCNT_KEYWORDS_PK" id="B8ED9365-6C97-D9EF-AC4A-116C9F08E970">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<logging>NO</logging>
+<segment>C713565D-CAC5-588D-DCFD-4988E731CC63</segment>
+<tableSpace>867175A5-F98A-8A75-A05A-E49ADF67B30C</tableSpace>
+<existingIndex>A8BD5E13-CEDD-9AB6-AF4F-DD66383FF0DD</existingIndex>
+<indexSegment>C713565D-CAC5-588D-DCFD-4988E731CC63</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BIR_TEST_DET" directorySegmentName="seg_0" id="B3297DC1-36CB-8390-401E-37CD6E435701">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:11:41 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<actions>INSERT</actions>
+<body>DECLARE&lt;br/&gt;  tmp   integer;&lt;br/&gt;begin&lt;br/&gt;  select test_det_seq.nextval into tmp from dual;&lt;br/&gt;  :new.test_det_id := tmp;&lt;br/&gt;  :new.created_by := user;&lt;br/&gt;  :new.created_on := sysdate - 1;&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>82DBCAD1-A46C-5C46-21F5-83FAED6D0A75</owner>
+<table>6D7D269C-165E-0184-9B21-45312F04220C</table>
+</TriggerOraclev10g>

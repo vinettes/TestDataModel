@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="1DFA41E9-5CA0-C8BF-8908-7136BCF868C9" name="FCN_BUSINESS_TIMES_V">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>FCN_BUSINESS_TIMES_V</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL>CREATE OR REPLACE VIEW FCN_BUSINESS_TIMES_V&lt;br/&gt;AS &lt;br/&gt;SELECT &lt;br/&gt;   distinct eastern_time&lt;br/&gt;FROM fcn_fma_business_day_v</userDefinedSQL>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="BUSINESS_DAY_END_TIME" id="5639E78F-2D6C-97F3-E074-3DAF85F17ACD">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FCN_BUSINESS_TIMES_V</sourceObjSchema>
+<sourceObjName>BUSINESS_DAY_END_TIME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:35 UTC</createdTime>
+<commentInRDBMS>one of the exisiting business day exclusive end times used by merchants - time only, local to Montreal, format hh24:mm</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>BUSINESS_DAY_END_TIME</alias>
+<dataType>VARCHAR2 (4000)</dataType>
+<headerAlias>BUSINESS_DAY_END_TIME</headerAlias>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+</TableView>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="MERCHANT_ACCOUNT_SUMMARIES_BU" directorySegmentName="seg_0" id="F6575BFF-0ECC-A49E-7818-6A5E60D434FF">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCHANT_ACCOUNT_SUMMARIES_BU</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<actions>UPDATE</actions>
+<body>Declare&lt;br/&gt;  v_procBatchModDate    processor_batches.modification_date%TYPE;&lt;br/&gt;  v_procBatchStatCode   processor_batches.stat_code%TYPE;&lt;br/&gt;&lt;br/&gt;/**&lt;br/&gt; * Trigger used to sync merchant_account_summaries stat_code and modification_date&lt;br/&gt; * to parent processor_batches stat_code and modification_date.&lt;br/&gt; *&lt;br/&gt; * Note: merchant_account_summaries (MAS) may have its stat_code updated before stat_code in&lt;br/&gt; *       processor_batches parent table (PB).  In this case, we temporarily reset the MAS&lt;br/&gt; *       stat_code and modification_date to current stat_code and modification_date of PB,&lt;br/&gt; *       and when the PB gets updated, it triggers its value update back on the MAS.&lt;br/&gt; *&lt;br/&gt; * Created By: Erik Mailhiot&lt;br/&gt; * Creation Date: 10 Aug 01&lt;br/&gt; */&lt;br/&gt; -- Modification track record:&lt;br/&gt; -- Modified By     Modified Date       Modification Comments&lt;br/&gt; -- -----------     -------------       --------------------- &lt;br/&gt; --&lt;br/&gt; &lt;br/&gt;Begin&lt;br/&gt;  -- if update called directly on this table:&lt;br/&gt;  --   take stat_code and modification_date from processor_batches table&lt;br/&gt;  -- else:&lt;br/&gt;  --   do nothing (stat_code and modification_date are already being set from processor_batches table)&lt;br/&gt;  IF NOT(batch_triggers.isCalledByProcBatchUpdate) THEN &lt;br/&gt;    SELECT modification_date, stat_code&lt;br/&gt;      INTO v_procBatchModDate, v_procBatchStatCode&lt;br/&gt;      FROM processor_batches&lt;br/&gt;     WHERE id = :new.procb_id;&lt;br/&gt;     &lt;br/&gt;    :new.stat_code := v_procBatchStatCode;&lt;br/&gt;    :new.modification_date := v_procBatchModDate;&lt;br/&gt;  END IF;  &lt;br/&gt;End;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<table>5E67656A-B711-8F03-FFF4-F022ED248041</table>
+</TriggerOraclev10g>

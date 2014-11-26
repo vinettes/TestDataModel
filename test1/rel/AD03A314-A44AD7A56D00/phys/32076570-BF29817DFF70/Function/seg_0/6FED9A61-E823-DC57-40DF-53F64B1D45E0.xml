@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="DIANE_GET_BLOB" directorySegmentName="seg_0" id="6FED9A61-E823-DC57-40DF-53F64B1D45E0">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>DIANE_GET_BLOB</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:35 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<source>CREATE OR REPLACE FUNCTION FALCON.DIANE_GET_BLOB&lt;br/&gt;   RETURN BLOB&lt;br/&gt;IS&lt;br/&gt;   CURSOR batch_cur&lt;br/&gt;   IS&lt;br/&gt;      SELECT contents&lt;br/&gt;        FROM batch_files ;&lt;br/&gt;&lt;br/&gt;   batch_rec batch_cur%ROWTYPE;&lt;br/&gt;BEGIN&lt;br/&gt;   OPEN batch_cur;&lt;br/&gt;   FETCH batch_cur INTO batch_rec;&lt;br/&gt;   CLOSE batch_cur;&lt;br/&gt;   RETURN batch_rec.contents;&lt;br/&gt;END;</source>
+</FunctionOracle>

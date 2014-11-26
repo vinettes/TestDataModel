@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="0C6548B8-445E-A743-8125-2B67ABC414F9" name="FALCON" seqName="seg_0"/>
+   <object objectType="Table" objectID="0E83A92B-C54F-144E-7CD2-056455465E8B" name="MERCHANT_ACCNT_KEYWORDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="347DD234-E7CA-B53A-C0FD-D7CEB445CA0B" name="MERCA_ACCT_RISK_INFO" seqName="seg_0"/>
+   <object objectType="Table" objectID="3EEBFBF9-B907-FCB2-583C-4CD96934F295" name="MERCHANT_ACCOUNTS_JN" seqName="seg_0"/>
+   <object objectType="Table" objectID="408F1185-721F-370A-2575-8497C08B6648" name="MERCHANTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="41ECF0CD-1B6E-8B69-82DC-E25C506F93BB" name="MERCHANT_CATEGORY_TYPES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5AA6C091-6BE0-3A3D-C25A-450D2282C0A4" name="MERCHANT_ACCT_PERMISSIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="5E67656A-B711-8F03-FFF4-F022ED248041" name="MERCHANT_ACCOUNT_SUMMARIES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5F59B66D-C994-E44E-976E-F86FFEFE66CD" name="MERCHANT_ACCOUNTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="7A8F0E6D-D3BF-ABBA-08DB-3834A1F0198F" name="MERCA_BRAND_RISK_INFO" seqName="seg_0"/>
+   <object objectType="Table" objectID="82369EC9-90CE-5F8C-C548-15F10F7519EA" name="MERCHANT_ACCOUNT_GROUPS" seqName="seg_0"/>
+   <object objectType="Table" objectID="917E8A61-E4CD-7FCE-DF4A-D4CF29255BD9" name="MERCA_BRAND_RISK_INFO_JN" seqName="seg_0"/>
+   <object objectType="Table" objectID="9B35CCBE-B86E-C740-7B30-C037E28D4BCE" name="MERCA_ACCT_RISK_INFO_JN" seqName="seg_0"/>
+   <object objectType="Table" objectID="CFE66819-6D21-0B38-BEED-410DB3CE3CE5" name="MERCHANT_ACCT_PERMNS_JN" seqName="seg_0"/>
+   <object objectType="View" objectID="1DFA41E9-5CA0-C8BF-8908-7136BCF868C9" name="FCN_BUSINESS_TIMES_V" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="210D73C5-D1AD-3CB0-9863-F1F51075C6E0" name="MERCBRI_MERCA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="294BE522-F07C-799D-ABC0-44A6B4266921" name="MERACCTKEY_MERACCT_MERACID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5F29160A-79BF-C391-A416-176D8B1FD8E4" name="MERCAG_MERCA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7485E70C-46C4-2812-757A-C1F864F4AB2A" name="MERCARI_MERCA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8C8BAE18-A03E-2E4D-E295-CFAADD92A5BF" name="MERCAP_MERCA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="933A9CB6-B2DA-0874-27E3-801C239E6365" name="MERCAS_MERCA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FA74132A-6EC1-C332-E6B6-65C5635C754C" name="MERCA_MERCCT_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

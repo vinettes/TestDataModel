@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFE66819-6D21-0B38-BEED-410DB3CE3CE5" name="MERCHANT_ACCT_PERMNS_JN">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCHANT_ACCT_PERMNS_JN</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Journaling table for falcon.merchant_acct_permissions</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MERCA_ACCOUNT_ID" id="A508EB1B-34C8-D380-BE57-4BDE4CA753AC">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMNS_JN</sourceObjSchema>
+<sourceObjName>MERCA_ACCOUNT_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GATE_CODE" id="56211899-3C6C-ED8E-2315-AB78F0346199">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMNS_JN</sourceObjSchema>
+<sourceObjName>GATE_CODE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FROM_DATE" id="606F7F2F-B0EF-8AF7-435F-055F8A46B541">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMNS_JN</sourceObjSchema>
+<sourceObjName>FROM_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TXN_PERMISSION" id="0B3AA249-0DCC-4F59-F72A-68EDF75566AD">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMNS_JN</sourceObjSchema>
+<sourceObjName>TXN_PERMISSION</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" id="39F14083-B078-E14A-2E22-1829FE487B34">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMNS_JN</sourceObjSchema>
+<sourceObjName>MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THRU_DATE" id="BFDE5F39-116A-B22B-92CB-3275EEE8195E">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMNS_JN</sourceObjSchema>
+<sourceObjName>THRU_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OGG_KEY_ID" id="61C1A53A-E96C-E831-C90E-8B028A14AC12">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMNS_JN</sourceObjSchema>
+<sourceObjName>OGG_KEY_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS> Column to ensure  record unicity requested by Goldengate  replication</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<defaultValue>sys_guid()</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

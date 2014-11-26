@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E83A92B-C54F-144E-7CD2-056455465E8B" name="MERCHANT_ACCNT_KEYWORDS">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCHANT_ACCNT_KEYWORDS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:30 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MERCA_ACCOUNT_ID" id="87270DE4-A8FE-A9D4-A533-5A48600C2612">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCNT_KEYWORDS</sourceObjSchema>
+<sourceObjName>MERCA_ACCOUNT_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="294BE522-F07C-799D-ABC0-44A6B4266921" referredColumn="0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0"/>
+</associations>
+</Column>
+<Column name="KEYWORD" id="8CF98A2F-5FA1-CD47-36DC-CE7DBA3C3E9B">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCNT_KEYWORDS</sourceObjSchema>
+<sourceObjName>KEYWORD</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="1962F703-9C5E-7179-21EF-B81ACA6B396C">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCNT_KEYWORDS</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="0DCF0F12-A1DB-A63B-0BA8-23FAB3B93F9D">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCNT_KEYWORDS</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" id="5E70F51F-1345-3C59-C9B6-48DE6579A557">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCNT_KEYWORDS</sourceObjSchema>
+<sourceObjName>MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFICATION_DATE" id="0D2B3710-29D7-6EC8-7777-38469E66F546">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCNT_KEYWORDS</sourceObjSchema>
+<sourceObjName>MODIFICATION_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8ED9365-6C97-D9EF-AC4A-116C9F08E970" name="MERCHANT_ACCNT_KEYWORDS_PK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCHANT_ACCNT_KEYWORDS_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87270DE4-A8FE-A9D4-A533-5A48600C2612"/>
+<colUsage columnID="8CF98A2F-5FA1-CD47-36DC-CE7DBA3C3E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8BD5E13-CEDD-9AB6-AF4F-DD66383FF0DD" name="MERCHANT_ACCNT_KEYWORDS_PK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCHANT_ACCNT_KEYWORDS_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87270DE4-A8FE-A9D4-A533-5A48600C2612"/>
+<colUsage columnID="8CF98A2F-5FA1-CD47-36DC-CE7DBA3C3E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AA56D07-8D36-64BC-7D39-1D7BBBF8FF61" name="MERACCTKEY_MERACCT_MERACID_FK">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87270DE4-A8FE-A9D4-A533-5A48600C2612"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

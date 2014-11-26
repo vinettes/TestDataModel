@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BIR_MERCA_BRAND_RISK_INFO" directorySegmentName="seg_0" id="FC861B06-B6AD-55E6-2386-F45A99A47270">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>BIR_MERCA_BRAND_RISK_INFO</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<actions>INSERT</actions>
+<body>begin&lt;br/&gt;&lt;br/&gt;/* audit section */&lt;br/&gt;:new.creation_date := sysdate ;&lt;br/&gt;:new.created_by := nvl(:new.created_by, user) ;&lt;br/&gt;&lt;br/&gt;:new.modification_date := sysdate ;&lt;br/&gt;:new.modified_by := nvl(:new.modified_by, user) ;&lt;br/&gt;&lt;br/&gt;end;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<table>7A8F0E6D-D3BF-ABBA-08DB-3834A1F0198F</table>
+</TriggerOraclev10g>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SynonymOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Synonym16" directorySegmentName="seg_0" id="A0DD447A-D407-6115-26E7-25A51ECCD68B">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>CRA</sourceObjSchema>
+<sourceObjName>FCN_MERCHANT_ACCT_PERMISSIONS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:35 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<object>MERCHANT_ACCT_PERMISSIONS</object>
+<objectUser>A2F89220-3194-9EC7-59AE-89FF69B57C0E</objectUser>
+<user>7C10B27E-E42F-BE6E-9151-F93F17D78C4E</user>
+</SynonymOraclev10g>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="89E772DE-AD34-6220-8FDE-5E191C977BC1" name="VINETTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="809EBFEC-D70A-14E6-D0FD-766339B8ECE0" name="TEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="0265D047-530A-8CDD-2EA6-643E15F36486" name="TESTER" seqName="seg_0"/>
+   <object objectType="Table" objectID="6D7D269C-165E-0184-9B21-45312F04220C" name="TEST_DET" seqName="seg_0"/>
+   <object objectType="Table" objectID="0B28ED5A-311C-F57F-24D7-DA34D0C36F60" name="TEST_DET_DET" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7847DC65-1391-7AF3-336C-6B20C57F8358" name="TEST_DET_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E2A6E577-E9B0-CBA4-BA03-2822A577B765" name="TEST_DET_TEST_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FB245D55-D766-4273-4F25-55BB238171BC" name="TEST_TESTER_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

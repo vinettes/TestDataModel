@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AA6C091-6BE0-3A3D-C25A-450D2282C0A4" name="MERCHANT_ACCT_PERMISSIONS">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCHANT_ACCT_PERMISSIONS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Permissions that a merchant account is allowed.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MERCA_ACCOUNT_ID" id="8B43A6BD-F415-B5CA-8FBE-62F36F771E2E">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMISSIONS</sourceObjSchema>
+<sourceObjName>MERCA_ACCOUNT_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Merchant account id assigned by FALCON during merchant sign up.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C8BAE18-A03E-2E4D-E295-CFAADD92A5BF" referredColumn="0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0"/>
+</associations>
+</Column>
+<Column name="GATE_CODE" id="F15D3CA9-BD21-6511-EF41-013D724A1D24">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMISSIONS</sourceObjSchema>
+<sourceObjName>GATE_CODE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The gateway code for the merchant account permissions.  For example:  DP (Direct Payment), MC (Merchant Centre), B (Batch)...</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TXN_PERMISSION" id="8D86ED47-2F9C-6EEB-FAF5-21764769A602">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMISSIONS</sourceObjSchema>
+<sourceObjName>TXN_PERMISSION</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>A string consisting of account permissions that the employee is allowed.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="06F1F5D0-B99A-6C00-3CA4-08B0DF3474C8">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMISSIONS</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<defaultValue>user</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="40186619-F150-2AD0-979D-28ABC0E70BAC">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMISSIONS</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" id="399C2672-A61E-DE18-8568-17052A1D7277">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMISSIONS</sourceObjSchema>
+<sourceObjName>MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<defaultValue>user</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFICATION_DATE" id="11ABDA9E-33C7-9AB8-CAEA-38D5CFE0833B">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCT_PERMISSIONS</sourceObjSchema>
+<sourceObjName>MODIFICATION_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="704D9520-A7E6-367B-B8A7-511DE495AECB" name="MERCAP_PK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCAP_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B43A6BD-F415-B5CA-8FBE-62F36F771E2E"/>
+<colUsage columnID="F15D3CA9-BD21-6511-EF41-013D724A1D24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEAA7B8F-6BCE-9F45-BF6F-13840D8D0F50" name="MERCAP_GATE_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCAP_GATE_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F15D3CA9-BD21-6511-EF41-013D724A1D24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9508ABF5-A138-9E8D-37AB-0E99F91A9FCA" name="MERCAP_MERCA_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCAP_MERCA_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B43A6BD-F415-B5CA-8FBE-62F36F771E2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1723418-301B-7136-5B54-FB5A4C135530" name="MERCAP_PK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCAP_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B43A6BD-F415-B5CA-8FBE-62F36F771E2E"/>
+<colUsage columnID="F15D3CA9-BD21-6511-EF41-013D724A1D24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D97FEFCA-4DDE-1540-B470-2D57A0F42FFA" name="MERCAP_MERCA_FK">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B43A6BD-F415-B5CA-8FBE-62F36F771E2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

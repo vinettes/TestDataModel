@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<design id="7A46EC02-1F9D-B42D-A8FA-72B84EAA9D34">
+	<models>
+		<model id="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" open="false" open_d_pm="false"/>
+		<model id="AD03A314-D894-39BC-2109-A44AD7A56D00" open="false" open_d_pm="false"/>
+		<model id="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" open="true" open_d_pm="true"/>
+	</models>
+</design>

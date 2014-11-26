@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="VINETTES" directorySegmentName="seg_0" id="82DBCAD1-A46C-5C46-21F5-83FAED6D0A75">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjName>VINETTES</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 15:16:22 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>89E772DE-AD34-6220-8FDE-5E191C977BC1</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,967 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F59B66D-C994-E44E-976E-F86FFEFE66CD" name="MERCHANT_ACCOUNTS">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCHANT_ACCOUNTS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:30 UTC</createdTime>
+<commentInRDBMS>Information about all merchant accounts created by SFC.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_ID" id="0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Merchant account id assigned by FALCON during merchant sign up.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_NAME" id="559BE11A-9B1A-C6D9-1A7B-3FE8759B6DEA">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOUNT_NAME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The legal name of the merchant for which the account is set up.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DBA_NAME" id="A5E77650-9875-45FA-3DEA-2B5E62D9550C">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DBA_NAME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Contact person.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IP_ADDRESSS" id="423E904C-86FB-BACC-6E97-515D25CBB462">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>IP_ADDRESSS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>A list of IP addresses from which the specified merchant account can make transactions.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_AUTH_SEQ" id="34E075BF-F62C-3567-27C3-E2E30F5E5799">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>LAST_AUTH_SEQ</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Sets the sequence number of the newly created authorization for a merchant account.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>1000000</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORE_ID" id="0936341F-20C2-C92B-F14A-8725701B7559">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>STORE_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The identification of the store.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORE_PASSWORD" id="F0CD8CB9-155A-F5E6-4A61-DA893521068F">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>STORE_PASSWORD</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The password of the store.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE_FLAG" id="08FE3275-0659-0A62-3886-053933220610">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACTIVE_FLAG</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>A flag indicating whether the account is active (1) or not active (0).</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1535070_ACTIV_000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEF_FRAUD_SVCS" id="5FC0EE1B-91A3-B60D-5076-B5469CDC215A">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DEF_FRAUD_SVCS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Lists a set of default fraud services for the merchant account.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURR_CODE" id="10A99CDD-B0B7-3A74-C141-6E29B362E4CD">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CURR_CODE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Code identifying the currency used by the merchant for this account.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MERC_LOGIN_NAME" id="F15897E4-3F91-3ACC-1217-CE81EC9C9F30">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>MERC_LOGIN_NAME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The login name of the merchant.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOCT_ACCOUNT_CATEGORY_CDE" id="9FF4125E-0EF8-E828-B32A-34D074E55FE8">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOCT_ACCOUNT_CATEGORY_CDE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>A code identifying the category of the account.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="D0094B79-FF57-1EB1-9FBA-A80147C31190">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The email address of the merchant.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="900792C2-EEE0-483D-40F7-786E2ECFF600">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="479A883C-3A4F-D3B8-CDFB-51D4B57A091F">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" id="980361CF-F659-C6C4-F13B-BF6A96F45779">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFICATION_DATE" id="2A71E6EC-EA60-B65A-614B-2490D21CE18A">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>MODIFICATION_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VI_SETT_MONTHLY_COUNT" id="F8CE8335-B729-1056-D796-B7B06D5DE988">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>VI_SETT_MONTHLY_COUNT</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Monthly count of VISA batched settlements.  Reset to 0 on day 2 of each month at midnight.  This column is used for gaming merchants only.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VI_CRED_MONTHLY_COUNT" id="98B709D4-948C-1EA4-998C-CA9CE82383D0">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>VI_CRED_MONTHLY_COUNT</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Monthly count of VISA batched credits.  Reset to 0 on day 2 of each month at midnight.  This column is used for gaming merchants only.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVENT_OVERDRAFT" id="200E44B7-46F8-D5C0-F7EE-076446435CA1">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>PREVENT_OVERDRAFT</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>This is a flag that indicates whether we hold (leave pending) or not credits that would make the balance of an FMA account go negative.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1535070_PREVE_000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MECAT_CODE" id="7D907A66-44F6-CD17-90A5-01DE3F2AC169">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>MECAT_CODE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>61DA3365-A96A-FE34-A93E-53336BA7150B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA74132A-6EC1-C332-E6B6-65C5635C754C" referredColumn="61DA3365-A96A-FE34-A93E-53336BA7150B"/>
+</associations>
+</Column>
+<Column name="CRCPS_STATE" id="0683A781-8993-E7AA-D71B-0D3EF9782BF5">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CRCPS_STATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FPA_PROMO_ACCEPTED_IND" id="F0FF9440-4160-937E-B5B1-2234B30C1023">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>FPA_PROMO_ACCEPTED_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1535070_FPA_P_000</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTOR_MERCHANT_NAME" id="F6F942B3-F312-29B6-8E38-AAF98DD7358F">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DESCRIPTOR_MERCHANT_NAME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Holds merchant descriptor for credit card processing</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTOR_MERCHANT_INFO" id="D23AC715-E78F-655A-0D98-3F445D29957C">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DESCRIPTOR_MERCHANT_INFO</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Holds the merchant customer service phone number, or the city, or the email.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTOR_STATE_PROVINCE" id="8B4A81E0-7B80-815F-7218-BC641012DEBA">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DESCRIPTOR_STATE_PROVINCE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Holds the merchant state or province.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIREPT_CDE" id="C0677845-9961-91D1-561F-F3523FE155D4">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>FIREPT_CDE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>The column represents the protocol that the merchant would like to use when processing transactions through our system.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RULE_DISPLAY_IND" id="9CCE1495-995C-15DF-A306-88FDAC3B66E2">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>RULE_DISPLAY_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>An indicator used to determine if the merchant has the right to have MRE rules displayed on the API.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1535070_RULE__000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAW_GATEWAY_RESPONSE_IND" id="8D3B7B56-7AC5-EE01-7EC9-EC5A29A30881">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>RAW_GATEWAY_RESPONSE_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Indicates whether or not the App is allowed to return the raw gateway response to the merchant</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1535070_RAW_G_000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEFAULT_PAYMENT_METHOD_TYP_CDE" id="D6C71995-3AC7-C3BF-AB72-9360EE643A50">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DEFAULT_PAYMENT_METHOD_TYP_CDE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Default Payment method for this merchant account</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<defaultValue>&apos;O&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORED_DATA_ACCOUNT_GROUP" id="87B4929A-F97E-06FC-E9E9-9A4FD486B9E7">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>STORED_DATA_ACCOUNT_GROUP</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Name of account group for stored data transactions</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SETT_BATCH_DELAY_IN_HOURS" id="AD04000C-A2B1-E9E1-D7F1-7DD64390264A">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>SETT_BATCH_DELAY_IN_HOURS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Minimum number of hours that settlements must be kept Pending before getting batched. Daily pre-batch will postpone settlements which occurred between this nb of hrs prior the cut-off time and the cut-off time itself, so that they do not get batched right away.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BALANCE_RESPONSE_IND" id="B5B35A67-C459-7445-AFFC-B36FDC8CB505">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>BALANCE_RESPONSE_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Stores Y or N indication whether or not the balance of the pre-pay card is returned in the response to the consumer.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1296591627_BALAN_000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEST_CARD_ENABLED_IND" id="CC6C6AD4-BC4F-6D33-686B-203FFAB4B442">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>TEST_CARD_ENABLED_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Indicates whether or not the merchant account supports test card transactions in addition to real card transactions or not.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1299505185_TEST__000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASYNC_RRE_IND" id="4409D19F-EE1E-9185-29D0-E4F8244BD562">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ASYNC_RRE_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>For story 5041.  Overview is: to allow an FMA to be configured to run the RRE asynchronously for its txns.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTRA_CREDIT_ENABLED_IND" id="7C56BD49-576C-8281-4021-40EC35760908">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>EXTRA_CREDIT_ENABLED_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Indicates if the sum of credits can exceed the sum of settlements</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1316095759_EXTRA_000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POST_AUTH_TAX_CALCULATION_IND" id="B7646171-E0E1-316C-0A94-C77BF0099524">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>POST_AUTH_TAX_CALCULATION_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>calculate the sales tax on sett, cred, and chargebacks (if set to &apos;N&apos;, taxes, if applicable, will be part of the request)</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1339786426_POST__000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTOR_ADDRESS_LINE_1" id="E56F6C7B-2405-6597-130A-B2B5BCE64E08">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DESCRIPTOR_ADDRESS_LINE_1</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Holds the merchant first line street address</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTOR_ADDRESS_LINE_2" id="CF71C9DE-8553-1CDB-62FB-01C755A9F564">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DESCRIPTOR_ADDRESS_LINE_2</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Holds the merchant second line street address (if first line was not enough)</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTOR_CITY" id="396F3F7D-3E06-D638-9C4B-B33ED336E51E">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DESCRIPTOR_CITY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Holds the merchant city</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_SUPPORT_NBR" id="6AA7CA6C-F84B-4EE3-4C13-8FD8A83A56C9">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CUSTOMER_SUPPORT_NBR</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Copy of the fpa.firepay_pers_accnts.customer_support_nbr</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDIT_ACCOUNT_GROUP" id="D1C825D2-070F-2547-69A2-F1FDD6F7ACE1">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CREDIT_ACCOUNT_GROUP</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Allow credits to other accounts that share this account group</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RRE_BEHAVIOR_CDE" id="FEE0B6A0-3A5E-99B8-98D3-977CB86284B1">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>RRE_BEHAVIOR_CDE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>stores the behavior rre rules should have on the txns of this merchant account (default ENFORCE)</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<defaultValue>&apos;ENFORCE&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_UPDATER_SFTP_USER" id="F9AB0B33-463A-A4E3-0BC1-E45EE18BAABF">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CARD_UPDATER_SFTP_USER</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>user id to connect to the card updater service gateway like Moneris, etc.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_UPDATER_SFTP_PASSWORD" id="E8067C7E-3814-BAAA-9B5E-D43E18E6ACAA">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CARD_UPDATER_SFTP_PASSWORD</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>user password to connect to the card updater service gateway like Moneris, etc.</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RRE_EVALUATE_ALL_RULES_IND" id="9D046412-59C0-B619-4BDA-703A1CA68022">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>RRE_EVALUATE_ALL_RULES_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>N means exit on first decline rule. Y means all rules are processed regardless if they trigger a decline or not (applicable when rre_behavior_cde=HOLD).</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1367345725_RRE_E_000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTO_CB_DISPUTE_IND" id="6377B0EE-EC0E-46D7-DEE9-898FC4641C5C">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>AUTO_CB_DISPUTE_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Y/N on whether or not chargeback auto disputes are enabled for this account</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DR_LITE_ALLOWED_IND" id="EAD7A4AF-E1D0-EB31-C845-7684A356DA95">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>DR_LITE_ALLOWED_IND</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>indicates if merchant is allowed to process its txns on the temporary DR Lite site (see Falcon 2.5 auth lite - FALCON-381)</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<constraintName>AVCON_1382641250_DR_LI_000</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_DAY_START_TIME" id="5FF179ED-0712-106C-F1AE-9B6ADDD10047">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>BUSINESS_DAY_START_TIME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>format: &quot;hh24:mm&quot; - entered in Eastern time zone(tz) (use the view FCN_FMA_BUSINESS_DAY_V to get it in your desired tz and format e.g. UTC with today&apos;s date)</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<defaultValue>&apos;00:00&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_DAY_TIME_ZONE" id="6D6EE366-24A4-A774-1735-0E8AB5E1AF4E">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>MERCHANT_ACCOUNTS</sourceObjSchema>
+<sourceObjName>BUSINESS_DAY_TIME_ZONE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:31 UTC</createdTime>
+<commentInRDBMS>Time zone in which the BUSINESS_DAY_START_TIME is entered (use the view FCN_FMA_BUSINESS_DAY_V to get it in your desired time zone and format - e.g. Eastern time with today&apos;s date)</commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<defaultValue>&apos;America/Montreal&apos;</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C88D8367-EEB7-9C4D-E6EB-7788DE327D48" name="MERCA_PK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80A345AB-4365-7AE7-2A90-8531C0A1C971" name="MERCA_MERC_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_MERC_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F15897E4-3F91-3ACC-1217-CE81EC9C9F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EC0C465-4E0B-A3DE-9FAD-EF04CB45B512" name="MERCA_CURR_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_CURR_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10A99CDD-B0B7-3A74-C141-6E29B362E4CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A46E96F5-C370-94E2-BC8A-F83A7792D787" name="MERCA_PK">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E34B4D96-8224-E360-E11E-B639917CFDE3" name="MERCA_ACCOCT_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_ACCOCT_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FF4125E-0EF8-E828-B32A-34D074E55FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B01D6489-8A50-D967-FC24-4D85E7DF10F2" name="MERCA_MERCCT_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_MERCCT_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D907A66-44F6-CD17-90A5-01DE3F2AC169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFF95F17-CD43-728A-A03C-8E0E03701C2F" name="MERCA_CRCPS_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_CRCPS_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0683A781-8993-E7AA-D71B-0D3EF9782BF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C99ED4A-1534-3EBB-E037-AA7FADFE3651" name="MERCA_MERCAG_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_MERCAG_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2EF8E4-3A96-A9BD-A3F5-308B0BACD2B0"/>
+<colUsage columnID="87B4929A-F97E-06FC-E9E9-9A4FD486B9E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="680B9BAD-C0E9-4959-72B1-A6C6837E5780" name="MERCA_TOCHAR_ACCTID_NU_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_TOCHAR_ACCTID_NU_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexExpression>TO_CHAR(&quot;ACCOUNT_ID&quot;)</indexExpression>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="25E8149B-B381-706A-3831-77FDD83B1208" name="MERCA_FIREPT_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_FIREPT_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0677845-9961-91D1-561F-F3523FE155D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="566571D3-9ECA-6436-9ED8-BF7665B71F70" name="MERCA_PAYMT_FK_I">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>MERCA_PAYMT_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>0C6548B8-445E-A743-8125-2B67ABC414F9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6C71995-3AC7-C3BF-AB72-9360EE643A50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F8D33A5-676A-3053-E3BA-BEF7D76E98ED" name="MERCA_MERCCT_FK">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D907A66-44F6-CD17-90A5-01DE3F2AC169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

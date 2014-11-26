@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TEST_DET_FK" directorySegmentName="seg_0" id="3FF4528C-A04E-733C-4BBC-B0000EC05529">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-09-03 17:15:09 UTC</createdTime>
+<generatorID>7847DC65-1391-7AF3-336C-6B20C57F8358</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="4125F6F1-19A5-B920-9D43-85AF0E7C72E3" value="true"/>
+<item key="E13E29F2-2DA7-B194-7E58-70CDF6BB1396" value="true"/>
+<item key="AD03A314-D894-39BC-2109-A44AD7A56D00" value="true"/>
+</engineerTo>
+<sourcePk>1FEEDA8A-07C0-9745-A340-403C1F682F51</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C98871C6-DB3D-7C00-1E77-334D75E2D49C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>74CB8D82-34BE-2EFD-CD19-02A498D25485</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="PARTNER_MERCHANT" directorySegmentName="seg_0" id="057F990C-F57B-F17D-C7A3-DE84157723E4">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>FALCON</sourceObjSchema>
+<sourceObjName>PARTNER_MERCHANT</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-20 18:32:35 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<owner>A2F89220-3194-9EC7-59AE-89FF69B57C0E</owner>
+<source>CREATE OR REPLACE procedure FALCON.PARTNER_MERCHANT (mt IN number)&lt;br/&gt;authid CURRENT_USER&lt;br/&gt;as&lt;br/&gt; sql_stmt VARCHAR2(2000);&lt;br/&gt; begin&lt;br/&gt; sql_stmt := &apos;create or replace view tram as select merca_account_id from authorizations where merca_account_id = mt&apos;;&lt;br/&gt; execute immediate sql_stmt;&lt;br/&gt;commit;&lt;br/&gt; exception&lt;br/&gt; when others then&lt;br/&gt; dbms_output.put_line(SQLERRM);&lt;br/&gt;end;</source>
+<body>CREATE OR REPLACE procedure FALCON.PARTNER_MERCHANT (mt IN number)&lt;br/&gt;authid CURRENT_USER&lt;br/&gt;as&lt;br/&gt; sql_stmt VARCHAR2(2000);&lt;br/&gt; begin&lt;br/&gt; sql_stmt := &apos;create or replace view tram as select merca_account_id from authorizations where merca_account_id = mt&apos;;&lt;br/&gt; execute immediate sql_stmt;&lt;br/&gt;commit;&lt;br/&gt; exception&lt;br/&gt; when others then&lt;br/&gt; dbms_output.put_line(SQLERRM);&lt;br/&gt;end;</body>
+</StoredProcedureOraclev10g>

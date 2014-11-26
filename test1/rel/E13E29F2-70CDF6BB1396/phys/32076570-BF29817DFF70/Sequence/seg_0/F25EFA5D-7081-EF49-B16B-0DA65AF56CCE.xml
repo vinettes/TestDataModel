@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="TEST_SEQ" directorySegmentName="seg_0" id="F25EFA5D-7081-EF49-B16B-0DA65AF56CCE">
+<sourceConnName>vinettes@FCNDEV.world</sourceConnName>
+<sourceObjSchema>vinettes</sourceObjSchema>
+<sourceObjName>test_seq</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 16:20:38 UTC</createdTime>
+<comment>comments test sequence</comment>
+<notes>notes test sequence</notes>
+<ownerDesignName>test</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>999999999999</maxValue>
+<startWith>5</startWith>
+<user>82DBCAD1-A46C-5C46-21F5-83FAED6D0A75</user>
+</SequenceOraclev10g>

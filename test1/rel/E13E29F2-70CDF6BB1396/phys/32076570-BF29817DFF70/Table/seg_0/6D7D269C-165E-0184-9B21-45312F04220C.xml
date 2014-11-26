@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TEST_DET" directorySegmentName="seg_0" id="6D7D269C-165E-0184-9B21-45312F04220C">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 15:19:52 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>89E772DE-AD34-6220-8FDE-5E191C977BC1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>53BD4D92-7767-C3C7-9B66-6ACE52C5D052</segment>
+<tableSpace>453ABD94-12F5-1EB5-26D2-5827411F0238</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TEST_DET_PK" id="D5E86F10-3D2C-8E7E-162C-51CB642D030A">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 15:19:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<schemaObject>89E772DE-AD34-6220-8FDE-5E191C977BC1</schemaObject>
+<segment>3536ADD2-430E-EE86-A9C4-9E6B2C6D5B23</segment>
+<tableSpace>453ABD94-12F5-1EB5-26D2-5827411F0238</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TEST_DET_ID" id="02E8E8CA-5365-3C75-B9C1-4378B815291D">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 15:19:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_ON" id="0A61C81C-2871-DE9C-B4F3-BB5BB298770A">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:10:40 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODIFIED_ON" id="38C86843-F7DA-74FB-A228-2A5E01A0E2F0">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:10:40 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEST_ID" id="58AD6592-FFEA-0DA1-6037-A1F858DC4A0C">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 15:19:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEST_DET_NAME" id="859A4641-06D5-A9A1-76B7-3C9BD88A034E">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 15:19:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODIFIED_BY" id="90D729AF-5F70-D690-D18C-7C05846FE496">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:10:40 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="C625FDEC-7D3A-446F-9AF0-644A01E3D307">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:10:40 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_IND" id="CF4248AC-3EAA-C4A7-AF59-C3884E9C2C0F">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 13:43:10 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TEST_DET_TEST_FK" id="6DEFAB66-F227-B993-F8CC-B4D9E9B42D2C">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-26 12:33:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TEST_DET_PK" id="3BD33CF2-1775-F5C8-5F11-F2407DCC54BE">
+<createdBy>vinettes</createdBy>
+<createdTime>2014-08-25 15:19:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<segment>3536ADD2-430E-EE86-A9C4-9E6B2C6D5B23</segment>
+<tableSpace>453ABD94-12F5-1EB5-26D2-5827411F0238</tableSpace>
+<existingIndex>D5E86F10-3D2C-8E7E-162C-51CB642D030A</existingIndex>
+<indexSegment>3536ADD2-430E-EE86-A9C4-9E6B2C6D5B23</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
